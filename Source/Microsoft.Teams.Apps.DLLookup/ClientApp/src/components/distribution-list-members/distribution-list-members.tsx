@@ -661,7 +661,7 @@ class DistributionListMembers extends React.Component<IDistributionListMembersPr
                                 <Input icon="search" className="search-box" placeholder={this.localize("search")} onChange={this.search} />
                             </FlexItem>
                             <FlexItem>
-                                <Button content={this.localize("startGroupChat")} disabled={!(this.checkedMembersForChat.length > 1)} primary onClick={this.groupChatWithMembers} />
+                                <Button content={this.localize("startGroupChat")} disabled={!(this.checkedMembersForChat.length > 0)} primary onClick={this.groupChatWithMembers} />
                             </FlexItem>
                         </Flex>
                     </Flex>
